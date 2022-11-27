@@ -1,0 +1,160 @@
+a{
+    text-decoration-line: none;
+}
+.background{
+    height: 1060px;
+    width: 600px;
+    margin: auto;
+    background-image: url(https://typora-dream.oss-cn-beijing.aliyuncs.com/Background.png);  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.userinfo{
+    display: flex;
+    width: auto;
+    height: 300px;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.btn{
+    width: 100%;
+    height: 170px;
+}
+.background-details{
+    height: 100%;
+    background-image: url(https://typora-dream.oss-cn-beijing.aliyuncs.com/Shape%207.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .bac-filter{
+    height: 100%;
+    background-color:#3cffb5;
+    opacity: 0.1;   
+} */
+.header{
+    display: flex;
+    width: 100%;
+    height: 107px;
+    justify-content: space-between;
+}
+.hea-btn{
+    height: 100%;
+    width: 90px;
+
+}
+.hea-botton{
+    height: 55px;
+    width: 55px;
+    margin-top: 30px;
+    margin-left: 15px;
+    position: relative;
+    background-image: url("https://typora-dream.oss-cn-beijing.aliyuncs.com/back1.png");
+    background-repeat: no-repeat;
+}
+.hea-title{
+    height: 100%;
+    flex: 1;
+    color: white;
+    font-size: 30px;
+}
+.hea-title-word{
+    width: 130px;
+    height: 40px;
+    margin-top: 35px;
+    margin-left: 35%;
+}
+.back{
+    margin-top: 16px;
+    margin-left: 15px;
+}
+.info{
+    margin-top: 12px;
+    margin-left: 22px;
+}
+.por-background{
+    width: 150px;
+    height: 150px;
+    margin-top: 80px;
+    margin-left: 225px;
+    background-image: url("https://typora-dream.oss-cn-beijing.aliyuncs.com/head%20portrait1.png");
+    background-repeat: no-repeat;
+} 
+.por-background a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iconfont.icon-jiahao{
+    margin-top: 20px;
+    font-size: 90px;
+    color:#c0dbe3;
+}
+.photo{
+    color: #c0dbe3;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.infomation{
+    width: 450px;
+    height: 60px;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #8f98c2;
+}
+.infomation1{
+    width: 450px;
+    height: 60px;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+a.show{
+    padding-left: 250px;
+    color: #3cffb5;
+}
+.text{
+    font-size: 30px;
+    color: white;
+    border: none;
+    background-color: inherit;
+}
+.btn-signup{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 448px;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 80px;
+    background-image: url("https://typora-dream.oss-cn-beijing.aliyuncs.com/sign%20up.png");
+    background-repeat: no-repeat;
+}
+.btn-signin{
+    width:448px;
+    height: 40px;
+    margin-left: 180px;
+    margin-top: 25px;
+}
+.botton-signup{
+    position: absolute;
+    top: 15px;
+    left: 145px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #6e6ca4;
+}
+a.signin{
+    color: #3cffb5;
+}
+.signin-word{
+    font-size: 20px;
+    color: white;
+
+}
