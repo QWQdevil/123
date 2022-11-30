@@ -1,3 +1,33 @@
+
+@font-face {
+    font-family: 'iconfont';  
+    src: url('./font_3794945_2xlaej249rw/iconfont.woff2') format('woff2'),
+         url('./font_3794945_2xlaej249rw/iconfont.woff') format('woff'),
+         url('./font_3794945_2xlaej249rw/iconfont.ttf') format('truetype');
+  }
+
+  .iconfont{
+    font-family:"iconfont" !important;
+    font-style:normal;
+    color:#c0dbe3;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+
+    .icon-jiahao{
+        margin-top: 20px;
+        font-size: 90px;
+    }
+
+    .icon-back{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+    
+    .icon-info{
+        font-size: 35px;
+        margin-left: 4px;
+    }
 a{
     text-decoration-line: none;
 }
@@ -65,15 +95,17 @@ a{
     height: 40px;
     margin-top: 35px;
     margin-left: 35%;
-}
-.back{
+}   
+
+
+/* .back{
     margin-top: 16px;
     margin-left: 15px;
-}
-.info{
+} */
+/* .info{
     margin-top: 12px;
     margin-left: 22px;
-}
+} */
 .por-background{
     width: 150px;
     height: 150px;
@@ -88,11 +120,7 @@ a{
     justify-content: center;
     align-items: center;
 }
-.iconfont.icon-jiahao{
-    margin-top: 20px;
-    font-size: 90px;
-    color:#c0dbe3;
-}
+
 .photo{
     color: #c0dbe3;
     font-weight: 700;
@@ -115,13 +143,17 @@ a{
     letter-spacing: 1px;
 }
 
+.userinfo-text{
+    background-color: inherit;
+    font-size: 30px;
+    border:none;
+}
 a.show{
     padding-left: 250px;
     color: #3cffb5;
 }
 .text{
     font-size: 30px;
-    color: white;
     border: none;
     background-color: inherit;
 }
